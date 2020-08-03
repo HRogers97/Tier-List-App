@@ -1,0 +1,5 @@
+GET http://localhost:9999
+#
+GET http://localhost:9999/user
+#
+GET http://localhost:9999/userLogin?email=ian.clement@johnabbott.qc.ca&password=4bb0566de8ca4848075d64ca6dd14fea11761eb1

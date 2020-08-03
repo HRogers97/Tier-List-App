@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/colorHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:height="90dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minWidth="300dp"
+        android:minHeight="60dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5sp">
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"></main.tierhaven.util.CircleView>
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView4"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView5"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:minWidth="300dp"
+        android:minHeight="60dp"
+        android:orientation="horizontal">
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView6"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView7"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView8"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView9"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <main.tierhaven.util.CircleView
+            android:id="@+id/circleView10"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/colorchosen_imageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+</LinearLayout>

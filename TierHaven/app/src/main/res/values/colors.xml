@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3EAAEE</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3EAAEE</color>
+    <color name="colorA">#FFFFFF</color>
+    <color name="STier">#FF7F7F</color>
+    <color name="ATier">#FFBF7F</color>
+    <color name="BTier">#FFDF7F</color>
+    <color name="CTier">#FFFF7F</color>
+    <color name="DTier">#bfff7f</color>
+    <color name="ETier">#30bf58</color>
+    <color name="FTier">#10b7e0</color>
+    <color name="GTier">#873cf0</color>
+    <color name="HTier">#c70465</color>
+    <color name="NewTier">#de23a9</color>
+    <color name="CategoryLink">#0000EE</color>
+    <color name="DarkerGray">#4E4E4E</color>
+</resources>
